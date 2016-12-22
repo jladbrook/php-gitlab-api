@@ -30,6 +30,7 @@ use Gitlab\HttpClient\Listener\PaginationListener;
  * @property-read \Gitlab\Api\SystemHooks $hooks
  * @property-read \Gitlab\Api\SystemHooks $system_hooks
  * @property-read \Gitlab\Api\Users $users
+ * @property-read \Gitlab\Api\Services $services
  */
 class Client
 {
