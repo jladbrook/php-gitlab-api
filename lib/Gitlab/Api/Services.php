@@ -22,7 +22,7 @@ class Services extends AbstractApi
      */
     public function create($project_id, $service_name, $params = array())
     {
-        return $this->post(
+        return $this->put(
             $this->formatServicePath($project_id, $service_name),
             $params
         );
