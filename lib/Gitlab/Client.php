@@ -151,6 +151,10 @@ class Client
                 $api = new Api\Users($this);
                 break;
 
+            case 'services':
+                $api = new Api\Services($this);
+                break;
+
             default:
                 throw new InvalidArgumentException('Invalid endpoint: "'.$name.'"');
 
